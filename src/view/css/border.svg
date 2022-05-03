@@ -1,0 +1,25 @@
+
+<svg width="304px" height="78px" viewBox="0 0 304 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="98.1206154%" y2="98.1206154%" id="linearGradient-1">
+            <stop stop-color="#0F5991" offset="0%"></stop>
+            <stop stop-color="#072E48" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.15666494%" y1="2.40517231%" x2="102.377313%" y2="114.174007%" id="linearGradient-2">
+            <stop stop-color="#7DF7FF" offset="0%"></stop>
+            <stop stop-color="#237DC9" offset="55.8208184%"></stop>
+            <stop stop-color="#1C62A9" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="0 104.000566 250.17791 104 270 124 270 148 20 148 0 128"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="CTA" transform="translate(17.000000, -87.000000)">
+            <g id="Back_CTA">
+                <use fill-opacity="0.5" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <path stroke="url(#linearGradient-2)" stroke-width="1" d="M0.5,104.500564 L0.5,127.792893 L20.2071068,147.5 L269.5,147.5 L269.5,124.205799 L249.969494,104.5 L0.5,104.500564 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

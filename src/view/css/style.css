@@ -1,0 +1,372 @@
+body{
+margin:auto;
+max-width:1160px;
+/*background-image:url(bg-stars-2560.jpg);*/
+background-color:rgb(9,17,25);
+/*background: linear-gradient(rgb(20,20,20),rgb(40,40,40),rgb(20,20,20));*/
+/*color:#00A9BF;*/
+color:#ecbb00;
+}
+
+
+header ul{
+	display:block;
+	text-align:center;
+}
+
+header ul li{
+	padding : 0.1em 1em 0 0;
+	display:inline-block;
+	font-size:2rem;
+	
+}
+
+
+h1{
+	/*color:rgb(60,232,254);*/
+	color:#ff8a00;
+	padding-left:25px;
+}
+h1:after{
+	content:" /";
+}
+
+h2{
+	/*color:rgb(60,232,254);*/
+	color:#ff8a00;
+}
+
+.categories {
+
+	display: flex;
+	justify-content: center;
+}
+
+.categories a{
+	display:block;
+	text-align:center;
+}
+
+
+.title_cat{
+	margin-top:20px;
+	font-size:1.5rem;
+	color:green;
+        box-shadow:0 2px 3px hsla(0,0%,0%,.2);
+        border-radius: 2px;
+        background-color: #0D1A28;
+        border-color: rgb(1,116,129);
+        color:#ecbb00;
+        
+	text-transform:uppercase;
+	display:block;
+	text-align:center;
+        margin-left:25%;
+        margin-right:25%;
+
+}
+.homepage{
+  display:inline-block;
+  width: 100%;
+  height:100%;
+  padding-bottom:50px;
+  margin-left:20px;
+}
+
+.sticky{
+    position : -webkit-fixed;
+    position: fixed;
+    top:0;
+    left:0;   
+    text-align:center;
+}
+
+.sticky .login{
+    	padding:18px 20px 16px 16px;
+	text-align:center;
+
+	color:rgb(60,232,254);
+	text-decoration:none;
+	
+	height:35px;
+	width:160px;
+	border:1px solid transparent;
+        border-image: url(border.svg);
+	border-image-slice:2 fill;
+}
+
+
+.box{
+	float:left;
+	width: 520px;
+	height:270px;
+	padding: 20px;
+	border-radius: 0 0 25px 5px;
+	margin: 10px;
+	background:rgb(19,34,49);
+}
+/* je sais pas si c'est du javascript, mais c'était sur le W3C : https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+.box img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+.box img{
+	background:#aaaaaa;
+	border: 3px solid;
+	border-image: radial-gradient(rgb(1,91,129),rgb(1,116,129))1;
+	max-width:514px;
+	min-width:514px;
+	max-height:200px;
+	min-height:200px;
+	display:block;
+	transition: transform .2s;
+}
+
+
+.boxUpg{
+	float:left;
+	width: 270px;
+	height:360px;
+	padding: 20px;
+	border-radius: 0 0 25px 5px;
+	margin: 10px;
+	background:rgb(19,34,49);
+}
+
+.boxUpg img{
+	background:#aaaaaa;
+	border: 3px solid;
+	border-image: radial-gradient(rgb(1,91,129),rgb(1,116,129))1;
+	max-width:254px;
+	min-width:254px;
+	max-height:254px;
+	min-height:254px;
+	display:block;
+	transition: transform .2s;
+}
+
+.details img{
+    max-width: 800px;
+    max-height: 660px;
+}
+
+a{
+	color:orange;
+}
+
+footer{
+	clear:left;
+	padding: 5px 0.5 em 7px;
+
+}
+
+footer a{
+	color:orange;
+	text-decoration:none;
+}
+
+footer ul{
+	display:block;
+	text-align:center;
+}
+
+footer ul li{
+	font-size:1.2rem;
+	padding : 0.1em 1em 0 0;
+	display:inline-block;	
+}
+
+main{
+	display:block;
+	text-align:center;
+	float:left;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	/*border-color: rgb(122,246,251);*/
+	border-color:#ff8a00;
+	border-width: medium;
+}
+
+
+.button_prom{
+        position: relative;
+        bottom: 450px;
+        left:10%;
+        transform: translate(-50%, -50%);
+        /*-ms-transform: translate(-50%, -50%); utilité ?*/
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 46px;
+        text-shadow: 2px 2px black;
+}
+
+.promotitre{
+        font-size: 46px;
+        position: relative;
+        bottom: 650px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 2px 2px black;
+}
+
+
+
+.mot_du_jour{
+	transform:scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	text-align:center;
+	padding:20px;
+
+
+}
+
+
+label {
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    text-align: right;
+}
+
+
+form{
+	min-width:800px;
+	min-height:150px;
+}
+
+div {
+	margin-bottom: 10px;
+}
+
+.inputFilm{
+    position: relative;
+    bottom: 5px;
+    right: 17%;
+}
+
+input[type=submit] {
+    box-shadow:0 2px 3px hsla(0,0%,0%,.2);
+    cursor:pointer;
+    border-radius: 4px;
+    background-color: rgb(19,34,49);
+    border-color: rgb(1,116,129);
+    color:#ecbb00;
+}
+.mot_du_jour section{
+	color:white;
+	background-color:rgba(48,56,61,0.6);
+	padding: 0 1em;
+	margin-right:250px;
+	margin-left:250px;
+	font-size:1.2rem;
+	overflow:auto;
+	border: 1px dotted grey;
+	border-radius:3px;
+	margin-bottom: 2em;
+	box-shadow: 3px 3px rgba(255,255,255, 0.3);
+	
+}
+
+
+.videoPlayer{
+    width:800px;
+    height:600px;
+}
+
+iframe{
+background-color: white;
+width: 100%;
+height:100%;
+    
+}
+
+.strike{
+	text-decoration:line-through;
+	margin-right:5px;
+}
+
+
+/*Beaucoup de souffrances ci-dessous*/
+.login a{
+	/*
+	clear:left;
+	float:left;
+	outline:0;
+	plus necessaire à priori après modifs
+	*/	
+	padding:18px 2px 6px 6px;
+	text-align:center;
+
+	color:rgb(60,232,254);
+	text-decoration:none;
+	
+	height:35px;
+	width:120px;
+	border:1px solid transparent;
+    border-image: url(border.svg);
+	border-image-slice:2 fill;
+
+}
+
+.login a:hover{
+	color:white;
+    border-image: url(border3.svg);
+	border-image-slice:2 fill;
+}
+
+
+
+.tab_button{
+	/*color:rgb(60,232,254);*/
+	color:#ecbb00;
+	text-decoration:none;
+	display:inline-block;
+	width:300px;
+	height:41px;
+	background:url('tab.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+	
+.tab_button:hover{
+	width:300px;
+	height:41px;
+	color:white;
+	background:url('glow_tab.png'),url('tab.png') ;
+	background-repeat:no-repeat;
+	background-position:center bottom,center top;	
+}
+
+.logo{
+	position:fixed;
+	top:-5%;
+	left:-2%;
+	-ms-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5); 
+}
+
+@media screen and (max-width:1420px){
+
+	
+	.tab_button{
+	width:179px;
+	height:25px;
+	background:url('tab_small.png') ;		
+	font-size:1rem;
+	}
+	
+	.tab_button:hover{
+	width:179px;
+	height:25px;
+	background:url('glow_tab_small.png'),url('tab_small.png');
+	background-position:center bottom;	
+	}
+
+	
+}
